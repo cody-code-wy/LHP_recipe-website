@@ -1,0 +1,12 @@
+img {
+  display: none;
+}
+
+.printbutton {
+  color: white;
+  background-color: black;
+  display: inline-block;
+  padding: 0 1.5em;
+  float: right;
+  margin-right: 10%;
+}

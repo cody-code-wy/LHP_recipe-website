@@ -1,0 +1,121 @@
+.vegan:before, .dialysis:before {
+    content: "Vegan tips!";
+    color: rgb(26,107,26);
+    font-size: 1.25em;
+}
+
+.dialysis:before {
+    content: "Dialysis tips!"
+}
+
+.dialysis, .vegan {
+    border: 1px black solid;
+    float: left;
+    width: 25%;
+    margin: .5em 2.5em;
+    padding: 1em;
+    padding-bottom: unset;
+    transition: all 1s ease;
+}
+
+.dialysis:hover, .vegan:hover {
+    border-color: red;
+    background-color:darkgrey;
+    color:#e9e9e9;
+    transform: scale(2,2);
+}
+
+/*
+.vegan:hover {
+    border-color: red;
+    background-color:darkgrey;
+    color:#e9e9e9;
+    transform: scale(2,2);
+}
+*/
+
+.dialysis {
+    float: right;
+}
+
+.optional:after {
+    content: " (optional)";
+}
+
+.optional {
+    color: rgb(65,65,65);
+}
+
+img {
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-radius: 10%;
+    box-shadow: 10px 10px 5px #888888, -10px -10px 5px #e9e9e9;
+    width: 450px;
+    transition: all 1s ease;
+}
+
+img#potatoes {
+  float: right;
+  width: 350px;
+  margin-top: -25px;
+}
+
+img:hover {
+    transform: rotate(5deg);
+}
+
+section {
+    border: 2px solid darkgrey;
+    background-color: lightgrey;
+    width: 75%;
+    margin: auto;
+    margin-top: 1em;
+    padding: 5%;
+}
+
+h1 {
+    width: 100%;
+    font-size: 4em;
+    color: white;
+    text-align: center;
+}
+
+body {
+    background-color: darkslategrey;
+}
+
+div {
+    border: 1px dotted grey;
+    margin: auto;
+    display: block;
+    width: 70%;
+}
+
+#prep div {
+    width: 60%;
+    display: inline-block;
+}
+
+#prep h3:first-of-type {
+    margin-left: calc(250px + 6em);
+}
+
+em {
+    margin: 25px;
+    font-size: 1.2em;
+}
+
+.printbutton {
+  float: right;
+  border: 1px solid darkblue;
+  border-radius: 10%;
+  width: auto;
+  display: inline;
+  padding: 0 1.5em;
+  margin-top:-4em;
+  margin-right:10%;
+  background-color:grey;
+}
